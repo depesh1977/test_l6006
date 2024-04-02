@@ -21,5 +21,7 @@ Weight | 178 g
 Wi-Fi | 2,4 GHz
 Year of release | 2020
 
+Specifications in detail
+See [We look there](https://www.devicespecifications.com/ru/model/65a55afd)
 
 
