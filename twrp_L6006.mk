@@ -14,6 +14,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota.mk)
 # Inherit some common Omni stuff.
 $(call inherit-product, vendor/twrp/config/common.mk)
 
+# Inherit from itel-L6006S device
+$(call inherit-product, device/itel/itel-L6006S/device.mk)
+
 
 PRODUCT_DEVICE := L6006
 PRODUCT_NAME := twrp_L6006
