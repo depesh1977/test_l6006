@@ -81,6 +81,9 @@ BOARD_SUPER_PARTITION_GROUPS := itel_dynamic_partitions
 BOARD_ITEL_DYNAMIC_PARTITIONS_PARTITION_LIST := system vendor product
 BOARD_ITEL_DYNAMIC_PARTITIONS_SIZE := 9122611200 # TODO: Fix hardcoded value
 
+# A/B OTA
+AB_OTA_UPDATER := false
+
 # System as root
 BOARD_SUPPRESS_SECURE_ERASE := true
 
