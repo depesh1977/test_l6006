@@ -158,6 +158,9 @@ on boot
     write /sys/block/mmcblk0boot0/force_ro 0
     write /sys/block/mmcblk0boot1/force_ro 0
 
+on boot
+setprop sys.usb.config adb
+
     chown system system /dev/iio:device1
     chown system system /sys/class/sprd_sensorhub/sensor_hub/iio/trigger/current_trigger
     chown system system /sys/class/sprd_sensorhub/sensor_hub/batch
