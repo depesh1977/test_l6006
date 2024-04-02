@@ -18,6 +18,18 @@ TARGET_CPU_ABI2 :=
 TARGET_CPU_VARIANT := generic
 TARGET_CPU_VARIANT_RUNTIME := generic
 
+# Dynamic partitions
+AB_OTA_UPDATER := true
+AB_OTA_PARTITIONS += \
+vbmeta \
+vbmeta_system \
+vbmeta_vendor \
+dtbo \
+boot \
+system \
+vendor \
+product
+
 TARGET_2ND_ARCH := arm
 TARGET_2ND_ARCH_VARIANT := armv7-a-neon
 TARGET_2ND_CPU_ABI := armeabi-v7a
