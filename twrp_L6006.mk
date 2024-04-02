@@ -9,7 +9,7 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/base.mk)
 
 # Inherit some common Omni stuff.
-#$(call inherit-product, vendor/twrp/config/common.mk)
+$(call inherit-product, vendor/twrp/config/common.mk)
 
 
 PRODUCT_DEVICE := L6006
