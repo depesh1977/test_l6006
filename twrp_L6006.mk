@@ -13,7 +13,7 @@ $(call inherit-product, vendor/twrp/config/common.mk)
 
 
 PRODUCT_DEVICE := L6006
-PRODUCT_NAME := twrp_itel-L6006
+PRODUCT_NAME := twrp_L6006
 PRODUCT_BRAND := Itel
 PRODUCT_MODEL := itel L6006
 PRODUCT_MANUFACTURER := itel
