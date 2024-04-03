@@ -27,6 +27,12 @@ PRODUCT_PACKAGES += \
     android.hardware.health@2.0-service \
     android.hardware.health@2.0-impl
 
+# Boot Control HAL
+PRODUCT_PACKAGES += \
+    android.hardware.boot@1.0-impl \
+    android.hardware.boot@1.0-impl.recovery \
+    android.hardware.boot@1.0-service
+
 # Fastbootd and fastboot HAL
 PRODUCT_PACKAGES += \
     fastbootd \
