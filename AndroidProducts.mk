@@ -8,4 +8,4 @@
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/twrp_L6006.mk
 
-COMMON_LUNCH_CHOICES := twrp_L6006-userdebug
+COMMON_LUNCH_CHOICES := omni_L6006-userdebug
