@@ -11,6 +11,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/base.mk)
 # Inherit some common Omni stuff.
 $(call inherit-product, vendor/twrp/config/common.mk)
 
+# Inherit from BQru-5745L device
+$(call inherit-product, device/itel/L6006/device.mk)
+
 PRODUCT_DEVICE := L6006
 PRODUCT_NAME := twrp_L6006
 PRODUCT_BRAND := Itel
@@ -18,11 +21,3 @@ PRODUCT_MODEL := itel L6006
 PRODUCT_MANUFACTURER := itel
 PRODUCT_RELEASE_NAME := L6006
 
-# Dynamic Partition
-PRODUCT_USE_DYNAMIC_PARTITIONS := true
-
-PRODUCT_SHIPPING_API_LEVEL := 29
-
-# Fastbootd
-PRODUCT_PACKAGES += \
-    android.hardware.fastboot@1.0-impl-mock
