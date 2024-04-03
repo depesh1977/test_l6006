@@ -139,6 +139,7 @@ TW_EXCLUDE_TWRP_APP := true
 # Logcat
 TWRP_INCLUDE_LOGCAT := true
 TARGET_USES_LOGD := true
+TWRP_EVENT_LOGGING := true
 
 # Use mke2fs to create ext4 images
 TARGET_USES_MKE2FS := true
