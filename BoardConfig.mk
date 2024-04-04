@@ -136,6 +136,10 @@ TW_USE_TOOLBOX := true
 # Exclude
 TW_EXCLUDE_TWRP_APP := true
 
+# MTP
+TW_MTP_DEVICE := /dev/mtp_usb
+TW_HAS_MTP := true
+
 # Logcat
 TWRP_INCLUDE_LOGCAT := true
 TARGET_USES_LOGD := true
